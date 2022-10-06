@@ -1,6 +1,7 @@
 package Inlämning1Sigrund;
 
-public class Växter implements behöverFöda{ //här implementerar jag från min interface för att sedan lägga in mängdföda i min interface
+public class Växter implements behöverFöda{ //här implementerar jag från min interface för att sedan lägga in mängdföda i min interface.
+    //Detta är förälderklassen som palm, kaktust och köttätande växten ärver. 
     private double längd;
     private String  namn;
     public String typAvFöda;
