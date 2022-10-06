@@ -9,6 +9,6 @@ public class Kaktus extends Växter  {
 
     public String mängdFöda(){
 
-        return "Kaktusen " + namn + " behöver 0.2 liter " + typAvFöda + "per dag";
+        return "Kaktusen " + getNamn() + " behöver 0.2 liter " +typAvFöda + "per dag";
     }
 }

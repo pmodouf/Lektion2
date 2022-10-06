@@ -1,7 +1,7 @@
 package Inlämning1Sigrund;
 
 public interface behöverFöda {
- String mängdFöda();
+ String mängdFöda();  //detta är min interface
 
 
 }

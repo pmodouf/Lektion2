@@ -25,7 +25,6 @@ public class MainVäxter {
                 outPutMessage += (i + 1) + "." + minaVäxter.get(i).getNamn() + "\n";
                 }
 
-            // varför det är 1-9 är så att alla siffror kommer med som man kan söka på. alltså 99
             String answer = JOptionPane.showInputDialog(outPutMessage);
             if (answer.matches("[0-9]+")) {
                 int intAnswer = Integer.parseInt(answer);

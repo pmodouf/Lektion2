@@ -1,8 +1,8 @@
 package Inlämning1Sigrund;
 
 public class KöttätandeVäxter extends Växter {
-   private double basNivå;
-   private double tillSkott;
+   public double basNivå;
+   public double tillSkott;
 
     public KöttätandeVäxter(double längd, String namn) {
         super(längd,namn);
@@ -11,6 +11,6 @@ public class KöttätandeVäxter extends Växter {
         typAvFöda = "Proteindryck";
     }
     public String mängdFöda(){
-        return "Den köttandeväxten " + namn + " behöver " + (basNivå + (0.2*längd)) + " liter" + typAvFöda + "per dag";
+        return "Den köttandeväxten " + getNamn() + " behöver " + (basNivå + (0.2*getLängd())) + " liter" + typAvFöda + "per dag";
     }
 }
