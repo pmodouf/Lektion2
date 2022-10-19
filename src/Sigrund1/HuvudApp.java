@@ -1,6 +1,6 @@
 package Sigrund1;
 
-public class HuvudApp {
+public class HuvudApp  {
     public static void main(String[] args) {
        Owner pa = new Owner("Pa","Odenplan",10);
        Bil car1 = new Bil("1000","Tesla","Tesla",pa);

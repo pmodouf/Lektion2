@@ -8,6 +8,7 @@ public class Kurs {
     int kursPoäng;
     int studenter;
     Lärare lärare;
+
     ArrayList<Student> studentList = new ArrayList<Student>();
 
     public ArrayList<Student> getStudentList() {

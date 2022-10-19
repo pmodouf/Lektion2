@@ -2,8 +2,8 @@ package Övning3;
 
 public abstract class Person {
 
-        String namn;
-        int ålder;
+    private String namn;
+    private int ålder;
 
     public String getNamn() {
         return namn;
